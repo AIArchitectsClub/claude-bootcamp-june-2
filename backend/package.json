@@ -1,0 +1,19 @@
+{
+  "name": "tennis-booking-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "db:init": "node scripts/init-db.js",
+    "db:auth-migrate": "node scripts/migrate-auth.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "better-auth": "^1.6.22",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.22.0"
+  }
+}
